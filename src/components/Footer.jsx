@@ -8,7 +8,7 @@ import { ReactComponent as LinkedIn } from '../assets/icons/linkedin.svg';
 // Importam CSS-ul
 import './Footer.css';
 
-const Footer = () => {
+function Footer() {
     return(
         // Vrem ca intreg footer-ul sa aiba un fundal diferit la culoare.
         // Footer-ul are 3 coloane si un copyright separat.

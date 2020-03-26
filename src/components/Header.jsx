@@ -6,7 +6,7 @@ import Logo from '../assets/images/logo.png';
 import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
 import './Header.css';
 
-const Header = () => {
+function Header() {
     return(
         // Vrem ca headerul sa aiba un border sub el.
         <header className="border-bottom mb-3">

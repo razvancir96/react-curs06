@@ -15,9 +15,7 @@ import './utils/utility-classes.css';
 class App extends React.Component {
   constructor() {
     super();
-    this.state = {
-
-    }
+    this.state = {}
   }
 
   render() {
@@ -36,7 +34,7 @@ class App extends React.Component {
           <Route path='*' component={Page404}/>
         </Switch>
       </div>
-    )
+    );
   }
 }
 
