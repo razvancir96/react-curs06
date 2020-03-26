@@ -5,13 +5,3 @@ pentru fiecare element cu clasa .container-fluid(venita din Bootstrap), pentru a
     min-width: 320px;
     max-width: 1200px;
 }
-
-/* redimensionam iconitele din footer */
-.footer-icon {
-    width: 24px;
-    height: 24px;
-}
-
-.content-min-height {
-    min-height: 68vh;
-}

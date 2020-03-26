@@ -23,6 +23,7 @@ class Home extends React.Component{
 
     render() {
         return(
+            // Fiecare pagina cu header si footer trebuie sa aiba continutul incadrat de Layout
             <Layout>
                 {/* Bootstrap: div-ul cu clasa container-fluid + div-ul cu class row sunt folosite pentru
                 asezarea in pagina(vezi teoria!). Clasa container-min-max-width e scrisa de noi si se afla in fisierul

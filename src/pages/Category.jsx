@@ -7,9 +7,7 @@ class Category extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            category: {
-
-            }
+            category: {}
         }
     }
 
@@ -28,11 +26,12 @@ class Category extends Component {
     }
 
     render() {
-
-
         return (
+            // Fiecare pagina cu header si footer trebuie sa aiba continutul incadrat de Layout
             <Layout>
-                <div className="content-min-height container-fluid container-min-max-width">
+                {/* Pentru a nu a avea o dimensiune prea mare si a fi centrat, continutul
+                paginii trebuie introdus intr-un div cu cele doua clase de mai jos. */}
+                <div className="container-fluid container-min-max-width">
                     {/* Din categoria curenta, afisam numele */}
                     <h2>{ this.state.category.name }</h2>
                 </div>

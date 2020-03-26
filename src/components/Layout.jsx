@@ -5,6 +5,7 @@ import './Layout.css';
 
 const Layout = (props) => {
     return(
+        // Stilizarea layout-ului se face din fisierul Layout.css
         <div className="layout">
             <Header/>
                 { props.children }

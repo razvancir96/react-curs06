@@ -1,0 +1,5 @@
+/* Redimensionam iconitele din footer. */
+footer svg {
+    width: 24px;
+    height: 24px;
+}

@@ -1,1 +1,12 @@
+/* Vrem ca toate link-urile din aplicatie sa aiba culoarea neagra. */
+/* A trebui sa pun si body in selector pentru a avea prioritate mai mare
+si a bate stilizarea default a link-urilor */
+body a {
+    color: black;
+}
+
+/* Nu vrem la hover sa se schimbe culoarea */
+body a:hover {
+    color: black;
+}
 

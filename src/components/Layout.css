@@ -1,4 +1,19 @@
-/* Trebuie sa ne asiguram ca pagina ocupa intreg viewport-ul! */
 .layout {
+    /* Trebuie sa ne asiguram ca pagina ocupa intreg viewport-ul! */
     min-height: 100vh;
+    /* Layout-ul nostru va avea mereu 3 elemente: header, un div de continut si footer.
+    Ele trebuie sa fie dispuse pe coloana, div-ul central sa ocupe tot spatiul disponibil */
+    display: flex;
+    flex-direction: column;
 }
+
+/* Selectorul de aici inseamna "div-ul care e direct copil al elementului cu clasa layout"
+Header si footer sunt tag-uri de html separate, deci targetam continutul */
+.layout > div{
+    /* Asta inseamna ca elementu targetat va creste cat ii permite spatiu. div-ul cu clasa
+    layout ocupa minim 100% din viewport, iar header-ul si footer-ul au niste dimensiuni fixe.
+    Locul licber din viewport vrem sa fie ocupat de continut, chiar daca e gol, deci vrem
+    ca acest continut sa acopere spatiul, daca acesta exista. */
+    flex-grow: 1;
+}
+

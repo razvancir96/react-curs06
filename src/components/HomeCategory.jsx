@@ -10,7 +10,7 @@ const HomeCategory = (props) => {
         <div className="col-6 mb-3">
             {/* Vrem ca atunci cand dam click pe componenta de categorie sa fim dusi in pagina respectivei categorii.
             Asadar, trebuie sa punem un link, care sa contina numele categoriei. */}
-            <Link to={`/category/${route}`} className="text-dark">
+            <Link to={`/category/${route}`}>
                 <div className="w-100">
                     <img src={image} alt={name} className="w-100"/>
                 </div>
